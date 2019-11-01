@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 
 import Card from './Card';
 import 'tachyons';
-import {robots} from './robots.js'
+import {karthi} from './robots.js'
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-<div className='tc'><Card id={robots[0].id} name={robots[0].name} email={robots[0].email}/>
-<Card id={robots[1].id} name={robots[1].name} email={robots[1].email}/>
-<Card id={robots[2].id} name={robots[2].name} email={robots[2].email}/>
+<div className='tc'><Card id={karthi[0].id} name={karthi[0].name} year={karthi[0].year} url={karthi[0].image}/>
+
 
 </div>
 
