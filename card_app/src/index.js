@@ -2,18 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Card from './Card';
+import Cardlist from './Cardlist';
 import 'tachyons';
 import {karthi} from './robots.js'
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-<div className='tc'><Card id={karthi[0].id} name={karthi[0].name} year={karthi[0].year} url={karthi[0].image}/>
 
 
-</div>
-
-
+<Cardlist karthi={karthi} />
     
     
     , document.getElementById('root'));
